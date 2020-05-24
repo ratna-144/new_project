@@ -1,0 +1,20 @@
+{
+  "name": "selecto/demo",
+  "description": "Module for Prouct Grid changes",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "proprietary"
+  ],
+  "require": {
+    "php": "~7.0.13|~7.1.0",
+    "magento/module-backend": ">100.0",
+    "magento/framework": ">100.0",
+    "magento/module-catalog": "*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ]
+  }
+}
